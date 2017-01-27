@@ -6,6 +6,9 @@ personal.js
 - Set the login data and the slack webhook url accordingly.
 - Enter the name of your latest graded course in the property `latestCourseGraded` (the one at the very top shown in Levis)
 
+![Screenshot](/screenshot.png)
+
+
 nightwatch.conf.js
 - set the chromedriver according to your operating system
 
