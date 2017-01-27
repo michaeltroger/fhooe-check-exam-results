@@ -14,7 +14,7 @@ nightwatch.conf.js
 
 ##Run it:
 `./node_modules/.bin/nightwatch`
-that way it's run once
+that way it's run once.
 For letting it run every x seconds choose a tool of your choice. 
 On Linux one could use watch:
 `watch -n600 ./node_modules/.bin/nightwatch`
