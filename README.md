@@ -1,6 +1,6 @@
 # FHOÖ check Levis automatically for new exam results with Slack notification
 
-Settings to set:
+##Settings to set:
 personal.js
 - Rename `personal.js.template` to `personal.js` in config. 
 - Set the login data and the slack webhook url accordingly.
@@ -12,7 +12,7 @@ personal.js
 nightwatch.conf.js
 - set the chromedriver according to your operating system
 
-Run it:
+##Run it:
 `./node_modules/.bin/nightwatch`
 that way it's run once
 For letting it run every x seconds choose a tool of your choice. 
