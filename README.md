@@ -4,7 +4,7 @@ Settings to set:
 personal.js
 - Rename `personal.js.template` to `personal.js` in config. 
 - Set the login data and the slack webhook url accordingly.
-- Enter the name of your latest graded course in the property `latestCourseGraded` (the one at the very top shown in Levis)
+- Enter the name of your latest graded course in the property `latestCourseGraded`. It's the one at the very top shown in Levis - in the example underneath it would be Augmented Reality.
 
 ![Screenshot](/screenshot.png)
 
