@@ -1,0 +1,6 @@
+module.exports = {
+    username : 'myusername',
+    password : 'mypassword',
+    latestCourseGraded : 'Augmented Reality',
+    slackWebhookUrl : 'https://hooks.slack.com/services/...'
+}

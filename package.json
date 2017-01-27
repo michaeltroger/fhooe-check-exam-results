@@ -1,0 +1,26 @@
+{
+  "name": "fhooe-check-exam-results",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeltroger/fhooe-check-exam-results.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeltroger/fhooe-check-exam-results/issues"
+  },
+  "homepage": "https://github.com/michaeltroger/fhooe-check-exam-results#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.12",
+    "nightwatch-slack-reporter": "0.0.2"
+  }
+}
