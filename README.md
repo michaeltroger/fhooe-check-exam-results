@@ -19,4 +19,5 @@ For letting it run every x seconds choose a tool of your choice.
 On Linux one could use watch:
 `watch -n600 ./node_modules/.bin/nightwatch`
 This example runs the check every 10 minutes.
+
 A Slack notification is only sent if there is a new grade online.
