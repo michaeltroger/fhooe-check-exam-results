@@ -6,7 +6,7 @@ The Chrome browser is opened and the Levis webpage is called. The login data is 
 
 A Slack notification is only sent if there is a new grade online.
 
-Be aware that the opening of the browser will take the system's focus to this window. Running it not on your primary computer is therefore recommended (or run it in a virtual machine). Currently only tested on Linux!
+Be aware that the opening of the browser will take the system's focus to this window. Running it not on your primary computer is therefore recommended (or run it in a virtual machine). Tested on Linux and Windows! Should work on OSX too.
 
 ##Requirements:
 - Chrome browser
