@@ -2,5 +2,8 @@ module.exports = {
     username : 'myusername',
     password : 'mypassword',
     latestCourseGraded : 'Augmented Reality',
-    slackWebhookUrl : 'https://hooks.slack.com/services/...'
+    slackWebhookUrl : 'https://hooks.slack.com/services/...',
+    chromeDriverPathRelativeFromRoot: 'bin/chromedriver_linux_x64'
+    // bin/chromedriver.exe for windows
+    // bin/chromedriver_mac_x64 for OSX
 }

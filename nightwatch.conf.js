@@ -1,10 +1,11 @@
+var personal = require('./config/personal.js');
+
 var SELENIUM_CONFIGURATION = {
   start_process: true,
   server_path: 'bin/selenium-server-standalone-3.0.1.jar',
   port: 4444,
   "cli_args" : {
-      "webdriver.chrome.driver" : "bin/chromedriver_linux_x64" 
-      // use the corresponding chromedriver for your operating system
+      "webdriver.chrome.driver" : personal.chromeDriverPathRelativeFromRoot 
   }
 };
 
