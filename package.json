@@ -1,7 +1,7 @@
 {
   "name": "fhooe-check-exam-results",
   "version": "1.0.0",
-  "description": "##How does it work? The Chrome browser is opened and the Levis webpage is called. The login data is inserted and the form submited. On the logged-in grading overview the name of the newest graded course is compared with the one given by you. If it doesn't equal this name there must be a new exam result.",
+  "description": "Check the FH Oberösterreich's Levis automatically for new exam results with Slack notification.",
   "main": "globals.js",
   "directories": {
     "test": "tests"
