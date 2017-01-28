@@ -1,8 +1,8 @@
 {
   "name": "fhooe-check-exam-results",
   "version": "1.0.0",
-  "description": "",
-  "main": "nightwatch.conf.js",
+  "description": "##How does it work? The Chrome browser is opened and the Levis webpage is called. The login data is inserted and the form submited. On the logged-in grading overview the name of the newest graded course is compared with the one given by you. If it doesn't equal this name there must be a new exam result.",
+  "main": "globals.js",
   "directories": {
     "test": "tests"
   },
@@ -19,7 +19,7 @@
     "url": "https://github.com/michaeltroger/fhooe-check-exam-results/issues"
   },
   "homepage": "https://github.com/michaeltroger/fhooe-check-exam-results#readme",
-  "devDependencies": {
+  "dependencies": {
     "nightwatch": "^0.9.12",
     "nightwatch-slack-reporter": "0.0.2"
   }
