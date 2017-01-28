@@ -19,7 +19,7 @@ install Nightwatch globally:
 
 then run `npm install` within the root of the project
 in order to get only notifications on new grades unfortunately a file has to be adjusted:
-Replace `node_modules/nightwatch-slack-reporter/lib/reporter.js` with:
+Replace `node_modules/nightwatch-slack-reporter/lib/reporter.js` with this file:
 https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/reporter.js
 
 personal.js
