@@ -8,7 +8,12 @@ A Slack notification is only sent if there is a new grade online.
 
 Be aware that the opening of the browser will take the system's focus to this window. Running it not on your primary computer is therefore recommended. Currently only tested on Linux!
 
-##Settings to set:
+##Requirements:
+- Chrome browser
+- Java
+- Node.js with NPM
+
+##Settings up:
 personal.js
 - Rename `personal.js.template` to `personal.js` in `config`. 
 - Set the FHOÖ login data and the slack webhook url accordingly.
