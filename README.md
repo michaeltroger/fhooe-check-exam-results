@@ -32,7 +32,7 @@ personal.js
 
 
 nightwatch.conf.js
-- set the chromedriver according to your operating system
+- set the path to the chromedriver executable according to your operating system
 
 Copy
 
