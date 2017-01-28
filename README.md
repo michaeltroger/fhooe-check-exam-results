@@ -28,6 +28,7 @@ personal.js
 - Set the FHOÖ login data and the slack webhook url accordingly.
 - Set the path to the chromedriver executable according to your operating system (relative from the root!)
 - Enter the name of your latest graded course in the property `latestCourseGraded`. It's the one at the very top shown in Levis - in the example underneath it would be Augmented Reality.
+
 ![Screenshot](/screenshot.png)
 
 
