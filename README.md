@@ -34,8 +34,6 @@ personal.js
 nightwatch.conf.js
 - set the path to the chromedriver executable according to your operating system
 
-Copy
-
 ##Run it:
 `nightwatch`
 that way it's run once.
