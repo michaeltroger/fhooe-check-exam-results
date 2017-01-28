@@ -14,6 +14,14 @@ Be aware that the opening of the browser will take the system's focus to this wi
 - Node.js with NPM
 
 ##Settings up:
+install Nightwatch globally:
+`npm install -g nightwatch`
+
+then run `npm install` within the root of the project
+In order to get only notifications on new grades unfortunately a file has to be adjusted:
+Replace node_modules/nightwatch-slack-reporter/lib/reporter.js with:
+https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/reporter.js
+
 personal.js
 - Rename `personal.js.template` to `personal.js` in `config`. 
 - Set the FHOÖ login data and the slack webhook url accordingly.
@@ -24,6 +32,8 @@ personal.js
 
 nightwatch.conf.js
 - set the chromedriver according to your operating system
+
+Copy
 
 ##Run it:
 `./node_modules/.bin/nightwatch`
