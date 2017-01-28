@@ -1,4 +1,4 @@
-# FHOÖ check Levis automatically for new exam results with Slack notification
+# Check the FH Oberösterreich's Levis automatically for new exam results with Slack notification
 ##at https://levis.fh-ooe.at
 
 ##How does it work?
