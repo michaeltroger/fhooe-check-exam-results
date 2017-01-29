@@ -4,7 +4,7 @@
 ##How does it work?
 The Chrome browser is opened and the Levis webpage is called. The login data is inserted and the form submited. On the logged-in grading overview the name of the newest graded course is compared with the one given by you. If it doesn't equal this name there must be a new exam result.
 
-A Slack notification is only sent if there is a new grade online.
+A Slack notification is only sent if there is a new grade online or if the check failed for some reason.
 
 Be aware that the opening of the browser will take the system's focus to this window. Running it not on your primary computer is therefore recommended (or run it in a virtual machine). Tested on Linux and Windows! Should work on OSX too.
 
