@@ -35,6 +35,7 @@ https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/repor
 ##Run it:
 `nightwatch`
 that way it's run once.
+
 For letting it run every x seconds choose a tool of your choice. 
 On Linux one could use watch:
 `watch -n600 nightwatch`
