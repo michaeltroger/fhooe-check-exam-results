@@ -14,27 +14,27 @@ var errorMsg = {
   username: 'incoming-webhook',
   icon_emoji: ':ghost:'
 }
+var slackReporterOptions = {
+  slack_message: function(results, options) 
+  {
+    if (results.failed > 0) { // at least one test failed
+      if (results.passed < 2) {
+        console.log("An error occured while checking!");
+        return errorMsg;
+      }
+      // only the final test failed -> a new grade must be there
+      console.log("New grades online!");
+      return newGradesMsg; 
+    } else { // all tests successful
+      console.log("No new grades online!");
+      return noNewGradesMsg;
+    }
+  },
+  slack_webhook_url: personal.slackWebhookUrl,   // This can be specified with SLACK_WEBHOOK_URL environment variable 
+  slack_send_only_on_failure: true,
+  slack_send_only_failed_tests: true
+}
 
 module.exports = {
-  reporter: (require('nightwatch-slack-reporter')
-  ({
-    slack_message: function(results, options) 
-    {
-      if (results.failed > 0) { // at least one test failed
-        if (results.passed < 2) {
-          console.log("An error occured while checking!");
-          return errorMsg;
-        }
-        // only the final test failed -> a new grade must be there
-        console.log("New grades online!");
-        return newGradesMsg; 
-      } else { // all tests successful
-        console.log("No new grades online!");
-        return noNewGradesMsg;
-      }
-    },
-    slack_webhook_url: personal.slackWebhookUrl,   // This can be specified with SLACK_WEBHOOK_URL environment variable 
-    slack_send_only_on_failure: true,
-    slack_send_only_failed_tests: true
-  }))
+  reporter: (require('nightwatch-slack-reporter')(slackReporterOptions))
 };
