@@ -13,7 +13,7 @@ Be aware that the opening of the browser will take the system's focus to this wi
 - Java
 - Node.js with NPM
 
-##Settings up:
+##Setting up:
 install Nightwatch globally:
 `npm install -g nightwatch`
 
@@ -37,6 +37,6 @@ https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/repor
 that way it's run once.
 
 For letting it run every x seconds choose a tool of your choice. 
-On Linux one could use watch:
-`watch -n600 nightwatch`
-This example runs the check every 10 minutes.
+- On Linux one could use watch:`watch -n600 nightwatch`
+- In the Windows PowerShell you could use: `while(1){nightwatch; sleep(600)}`
+Those examples runs the check every 10 minutes. 
