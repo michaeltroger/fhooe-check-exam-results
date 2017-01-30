@@ -40,4 +40,4 @@ For letting it run every x seconds choose a tool of your choice.
 - On Linux one could use watch:`watch -n600 nightwatch`
 - In the Windows PowerShell you could use: `while(1){nightwatch; sleep(600)}`
 
-Those examples runs the check every 10 minutes. 
+Those examples run the check every 10 minutes. 
