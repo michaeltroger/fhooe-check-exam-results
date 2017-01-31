@@ -13,7 +13,7 @@ Be aware that the opening of the browser will take the system's focus to this wi
 - Java
 - Node.js with NPM
 
-##Settings up:
+##Setting up:
 install Nightwatch globally:
 `npm install -g nightwatch`
 
@@ -23,9 +23,9 @@ In order to get only notifications on new grades unfortunately a file has to be 
 Replace `node_modules/nightwatch-slack-reporter/lib/reporter.js` with this file:
 https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/reporter.js
 
-personal.json
-- Rename `personal.json.template` to `personal.json` in `config`. 
-- Set the FHOÖ login data and the slack webhook url accordingly.
+**personal.json**
+- Duplicate `personal.json.template` and rename it to `personal.json` (in `config` folder). 
+- Set the FHOÖ login data and the Slack webhook url accordingly.
 - Set the path to the chromedriver executable according to your operating system (relative from the root!)
 - Enter the name of your latest graded course in the property `latestCourseGraded`. It's the one at the very top shown in Levis - in the example underneath it would be Augmented Reality.
 
@@ -35,7 +35,9 @@ personal.json
 ##Run it:
 `nightwatch`
 that way it's run once.
+
 For letting it run every x seconds choose a tool of your choice. 
-On Linux one could use watch:
-`watch -n600 nightwatch`
-This example runs the check every 10 minutes.
+- On Linux one could use watch:`watch -n600 nightwatch`
+- In the Windows PowerShell you could use: `while(1){nightwatch; sleep(600)}`
+
+Those examples run the check every 10 minutes. 
