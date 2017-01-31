@@ -1,4 +1,4 @@
-var personal = require('./config/personal.js');
+var personal = require('./config/personal');
 
 var SELENIUM_CONFIGURATION = {
   start_process: true,

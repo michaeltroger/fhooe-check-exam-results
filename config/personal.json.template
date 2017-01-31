@@ -1,0 +1,7 @@
+{
+    "username" : "myusername",
+    "password" : "mypassword",
+    "latestCourseGraded" : "Augmented Reality",
+    "slackWebhookUrl" : "https://hooks.slack.com/services/...",
+    "chromeDriverPathRelativeFromRoot": "bin/chromedriver_linux_x64"
+}

@@ -1,5 +1,5 @@
-var general = require('../config/general.js');
-var personal = require('../config/personal.js');
+var general = require('../config/general');
+var personal = require('../config/personal');
 
 module.exports = {
   'FHOÖ Check Exam Results' : function (browser) {

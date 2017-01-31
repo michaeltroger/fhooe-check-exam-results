@@ -1,4 +1,4 @@
-var personal = require('./config/personal.js');
+var personal = require('./config/personal');
 var newGradesMsg = {
   text: 'New grades online!',
   username: 'incoming-webhook',
