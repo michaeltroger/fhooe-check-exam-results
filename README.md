@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/ngs/nightwatch-slack-reporter/master/lib/repor
 **personal.json**
 - Duplicate `personal.json.template` and rename it to `personal.json` (in `config` folder). 
 - Set the FHOÖ login data and the Slack webhook url accordingly.
-- Set the path to the chromedriver executable according to your operating system (relative from the root!)
+- Set the path to the chromedriver executable according to your operating system (relative from the project root!)
 - Enter the name of your latest graded course in the property `latestCourseGraded`. It's the one at the very top shown in Levis - in the example underneath it would be Augmented Reality.
 
 ![Screenshot](/screenshot.png)
