@@ -30,7 +30,7 @@ var slackReporterOptions = {
       return noNewGradesMsg;
     }
   },
-  slack_webhook_url: personal.slackWebhookUrl,   // This can be specified with SLACK_WEBHOOK_URL environment variable 
+  slack_webhook_url: personal.slackWebhookUrl,
   slack_send_only_on_failure: true,
   slack_send_only_failed_tests: true
 }

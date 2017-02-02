@@ -9,6 +9,7 @@ module.exports = {
       .setValue(general.usernameFieldSelector, personal.username)
       .setValue(general.passwordFieldSelector, personal.password)
       .click(general.submitButtonSelector)
+      .pause(1000)
       .waitForElementVisible(general.latestCourseGradedSelector, 1000)
       .assert.containsText(general.latestCourseGradedSelector, personal.latestCourseGraded)
       .end();
