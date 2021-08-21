@@ -1,6 +1,6 @@
 # Check the FH Oberösterreich's Levis automatically for new exam results with Slack notification
 ## at https://levis.fh-ooe.at
-
+### Attention! This repo is no longer maintained, since I'm no longer a student at the FH Oberösterreich I can not verify if this approach still works. If you're a student there, then feel free to fork it.
 ## How does it work?
 The Chrome browser is opened and the Levis webpage is called. The login data is inserted and the form submited. On the logged-in grading overview the name of the newest graded course is compared with the one given by you. If it doesn't equal this name there must be a new exam result.
 
